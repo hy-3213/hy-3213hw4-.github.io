@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>About Me</title>
+
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="mailto:&lt;hy2912@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/hy-3212/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">About Me</h1>
+
+</div>
+
+
+<p>The information below is a summary of Helen’s academic and
+professional experiences.</p>
+<p><em>EDUCATION</em> MS Environmental Health Data Science, 2025
+Columbia University Mailman School of Public Health<br />
+Thesis: Nutrition and Stress as Effect Modifiers During Pre-Natal Air
+Pollution Exposure on Childhood Lung Function in GRAPHS cohort Thesis
+advisor: Dr. Darby Jack</p>
+<p>BS Medicinal Biochemistry, Honors, 2024 William Paterson University
+Public Health minor (summa cum laude) Thesis: Closed Captioning:
+Culturally Competent and Linguistically Concordant Healthcare (Global
+Public Health Honors Research Track) Thesis advisor: Dr. Marianne
+Sullivan</p>
+<p><em>PUBLICATIONS</em> Basch, C.H., Yousaf, H., Fera, J.et al.YouTube
+as a Source of Information on Air Pollution: Significance for Community
+Health.J Community Health (2024). <a
+href="https://doi.org/10.1007/s10900-024-01360-7"
+class="uri">https://doi.org/10.1007/s10900-024-01360-7</a> Yousaf, H.,
+Fera, J., &amp; Basch, C. H. (2024). Coverage of Air Pollution in Online
+News: Implications for Environmental Health Awareness. Journal of
+Consumer Health on the Internet, 1–9. <a
+href="https://doi.org/10.1080/15398285.2024.2385221"
+class="uri">https://doi.org/10.1080/15398285.2024.2385221</a> Basch CH,
+Yousaf H, Fera J, Gonzalez R. Traffic as an Urban Health Determinant:
+Coverage of the New York City Congestion Pricing Plan on TikTok. In
+press. Basch CH, Kollia B, Park E, Yousaf H. Investigation of the online
+news content provided to the public regarding noise pollution. Noise and
+Health. Under Review. Basch CH, Hillyer GC, Yousaf H, Basch CE. The Zyn
+Wave: Analyzing the Popularity of #zyn content on TikTok. Under Review.
+Basch CH, Kollia B, Park E, Yousaf H. Noise pollution: impact on
+communication, mental, and physical health in YouTube videos.Under
+Review.</p>
+<p><em>CONFERENCES</em> Helen Yousaf, David A Snyder, Biophysical
+Chemistry of Aging, Undergraduate Research Symposium, William Paterson
+University, April 2024 H. Yousaf, Between the Diagnosis: The Importance
+of Linguistic and Cultural Competency in Healthcare, National Collegiate
+Honors Council Annual Conference, Chicago, IL, November 2023 H. Yousaf,
+Between the Diagnosis: The Importance of Linguistic and Cultural
+Competency in Healthcare, National Society for Minorities in Honors
+Conference, University of Arkansas, October 2023 (Accepted; unable to
+attend) H. Yousaf, S. Gritsch, J. Foley, Future Pioneer Project – An
+Integrated Program to Expand Knowledge of Sustainable Energy
+Technologies: Year I: Passive Radiative Cooling, Nano-chemistrycategory,
+Undergraduate Research Symposium, William Paterson University, March
+2022</p>
+<p><em>RESEARCH EXPERIENCE</em> Practicum Research Assistant, 2024 -
+Present Collaborative Lab for Energy Access Research and Solutions
+(CLEARS); Advisor: Dr. Darby Jack Department of Environmental Health
+Sciences Mailman School of Public Health, Columbia University
+Development of data infrastructure/system from GRAPHS (The Ghana
+Randomized Air Pollution and Health Study) cohort assessing role of
+nutrition as an effect modifier for air pollution effects Collaborate
+with post-doctoral research follow to determine whether stress and air
+pollution exposure have symbiotic impacts on health outcomes
+Collaborating with investigator from Mount Sinai Hospital to develop
+database, analyze nutritional biomarkers, and formalize into written
+thesis for Maters of Science degree requirements</p>
+<p>Research Assistant, 2024-Present Kupsco Lab on Environmental
+Epigenetics and Children’s Health; PI: Dr. Allison Kupsco Department of
+Environmental Health Sciences Mailman School of Public Health, Columbia
+University Statistical analysis of effect of PROGRESS metals birth
+cohort on childhood and adolescent sleep patterns Using teeth and blood
+metal levels as biomarkers of exposure to determine whether prenatal,
+antenatal, and early childhood exposure to metals impacts sleep behavior
+and cycles of children Working with an interdisciplinary team of
+metabolic and epigenetic researchers to characterize
+metal-neurodevelopmental and cognitive interactions of a longitudinal,
+cohort-based study Participate in weekly seminar presentations learning
+about quantitative methods for manipulation of metabolic and molecular
+data related to environmental epigenetics and genomics Development of a
+data analysis plan</p>
+<p>Graduate Research Assistant, 2024-Present Developing a Research and
+Rights Agenda to Address the Needs and Foster the Capabilities of
+Displaced Older Adults International Longevity Center and Robert N.
+Butler Columbia Aging Center; PI: Dr. John Beard, Co-PI: Dr. Maureen
+Henry Department of Health Policy and Management, Presidential Global
+Innovation Fund Mailman School of Public Health, Columbia University
+Student lead on scoping umbrella review on the impact of conflict,
+natural disasters, and climate change forcing older populations to
+migrate using a humanitarian relief framework<br />
+Author briefing paper assessing the impact of age and refugee status on
+eight health-related domains: to share with experts in Global Forum in
+Amman, Jordan Travel to Amman, Jordan in February 2025 to meet with
+global experts on ageing and elderly IDPs including officials from the
+United Nations, USAID, HelpAge, and Norweigen Embassy Coordinate with
+Columbia Global Center - Amman in Jordan to determine logistics of
+holding conference in February 2025 and establish list of global experts
+to attend conference including philanthropists, journalists, and
+political figures<br />
+Prepare and distribute Delphi study for local and global meeting in
+Amman, Jordan and analyze results Draft literature review paper
+detailing the impact of forced migration and displacement on older
+persons in Jordan Simultaneously work with Robert N. Butler Columbia
+Aging Center on related research study performing Triad interviews on
+the self-perceptions, perceived perceptions, and concerns of aging
+populations in Washington Heights, New York</p>
+<p>Research Assistant, 2023- Present William Paterson University
+Department of Public Health; PI: Dr. Corey Basch Collaborating in a
+mixed-methods research group analyzing the social, structural, and
+environmental determinants of urban, community, and global health
+outcomes; more specifically related to air pollution, noise pollution,
+social media and health communication, legislative policy, substance
+abuse Research methodology primarily focused on the long-lasting health
+impacts of denizens interacting with their social, built, and natural
+environments and the role of health communication and individual
+behavior development Led data collection on 10 unique research studies
+using survey and qualitative research methods including sampling,
+inductive and deductive reasoning, and data coding Developed 2 IRB
+approved Knowledge, Attitude, and Behavior survey instruments to measure
+behaviors of college-aged students related to global climate change and
+artificial intelligence Work led to successful completion of 1
+first-authored and 8 co-authored peer-reviewed manuscripts for
+publications</p>
+<p>Undergraduate Research Assistant, 2022 - 2024 National Science
+Foundation Grant Collaborative research, William Paterson University and
+Columbia University Socio-economic patterns, public perceptions, and
+climate vulnerabilities of water resources and quality in the NY-NJ
+Watershed  Departments of Public Health, Environmental Science, and
+Community and Social Justice Studies; PI: Dr. Lilian Milanés<br />
+Performed systematic literature reviews and analyzed data on water
+perception and access in minority and disadvantaged communities in the
+Sri-state region to assess further need for quality and health testing
+Partnered with Passaic County and State of New Jersey stakeholders,
+Jersey Water Works, to meet demand for careers and workforce training in
+water-jobs   Drafted Internal Review Board application for focus group
+approval and converted participant survey results into data record file
+Developed and planned community-service projects on campus in
+collaboration with Center for Diversity and Inclusion to increase
+awareness about water-insecurity</p>
+<p>Special Project Undergraduate Research Assistant, 2022 William
+Paterson University Department of Public Health; Mentor: Dr. Corey Basch
+Surveyed the New York State Hospital system to assess access to
+preventative and follow-up care for diabetic patients in the NY
+Metropolitan area based on health insurance type and coverage Contacted
+ophthalmologists, cardiologists, and endocrinologists to collect data on
+average phone wait times and appointment availability for new patients
+with various insurance coverages and health conditions</p>
+<p><em>TEACHING EXPERIENCE</em> Honors Peer Leader, 2022- 2024 Honors
+College, William Paterson University Facilitated HON1020 introductory
+courses for Honors first-year and transfer students Held weekly Office
+Hours to answer student questions and offer additional guidance
+Organized and hosted yearly Honors events to increase civic engagement
+and student participation, including Annual Coat Drive, Honors Week and
+Reception, and Orientation Co-organized civic engagement project, Slices
+of Service, and workshop panel to encourage student participation in
+community engagement and reflection on the direct and in-direct impacts
+of service projects Assisted Dean and Associate Director with
+administrative tasks related to student enrollment, marketing, and other
+tasks as assigned</p>
+<p>Tutor, 2018-2021 Worked one-on-one with students, grades 5-11, to
+develop and improve study habits and achieve academic success by
+creating study guides, practice quizzes, and study materials. Aided with
+homework questions and confusion on course material with specific
+experience in STEM, social science, and foreign language courses for
+elementary through high school students</p>
+<p><em>PROFESSIONAL AND LEADERSHIP EXPERIENCE</em> Graduate
+Administrative Assistant, 2024-Present Digital Learning Studio, Mailman
+School of Public Health, Columbia University Irving Medical Center Read
+and completed more than 200 peer-reviewed journal articles, book
+chapters, and technical papers that led to the successful development of
+RISE Reading Summary Learning Modules for 9 graduate-level courses that
+will be implemented in Spring 2025 semester: PUBHP6053: Public Health
+Interventions, PUBHP6054: Global and Development Perspectives,
+PUBHP6062: Health Systems, PUBH 6073: Integration of Science and
+Practice II, P6082: Personal Leadership, P6766: Designing Needs and
+Assets Assessment, P8095: Communicating Health Risks, P8304: The Impact
+of Climate Change on Public Health, and P8620: Implementation Science in
+Practice, P8096: Communicating Health Risks to the Public, P8304: The
+Impact of Climate Change on Public Health Develop RISE Learning Modules
+for online-instruction students in Mailman Accelerated MPH program for
+Spring 2025 course: P8620: Implementation Science in Practice Write
+reading summaries based on instructor lesson plans Design asynchronous
+learning content using Mailman MPH core curriculum materials</p>
+<p>Office Intern, 2023- 2024 Honors College, William Paterson University
+Won regional and national competitions as author and editor of monthly
+newsletter Aggregated University news to share upcoming deadlines,
+events, and reminders with students Collaborated with Honors Faculty and
+staff on program planning goals and initiatives</p>
+<p>Student Assistant, 2022- 2023 Counseling, Health, and Wellness
+Center, William Paterson University Led administrative support to WP and
+FastMed LLC on-site COVID-19 testing and vaccine clinics in safe
+return-to campus initiative post-lockdowns Collaborated with licensed
+counselors to input data for the Columbia University Suicide Screening
+Survey Managed medication supply and packaging under supervision of
+Charge Nurse and more than 1500 COVID-19 antigen tests for resident
+students Obtained pertinent history related to mental health and primary
+care at the time of appointments and triage</p>
+<p>Student Assistantship, 2021-2022 Department of Chemistry, William
+Paterson University Successful presentation of clean energy
+heating/cooling techniques at annual undergraduate research symposium in
+nano chemistry category Promoted the Future Pioneer Project, a project
+funded by a National Science Foundation grant focusing on sustainable
+development of cooling and heating techniques to address
+carbon-expensive household appliances Organized yearly Future Pioneer
+Fest and “unconference”. Assessed diversity and effectiveness of project
+through participant surveys and collaboration with Center for Diversity
+and Inclusion</p>
+<p><em>LANGUAGES</em> Fluent: Dari, English, Farsi, French, German,
+Hindi, Urdu and Proficient: Italian, Spanish, and Turkish</p>
+<p><em>SKILLS</em> R, SPSS, GIS, Stata</p>
+<p><em>CERTIFICATIONS</em> CITI Health Research Certification,
+Columbia-Suicide Severest Rating Scale Training, HIPAA for Mental
+Health, Heart Savers CPR</p>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
