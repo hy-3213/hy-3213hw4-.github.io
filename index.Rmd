@@ -1,7 +1,17 @@
 ---
-title: "Holy cow!"
+title: "Welcome to Helen Yousaf's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
 ---
+### About this Website 
+Welcome to Helen Yousaf's website. Helen is an aspiring global public health leader with the goal of working towards a more sustainable, just, and healthy society and strives to solve complex global health and policy issues by applying nuanced and multidisciplinary perspectives. On this website you will learn about her professional and academic qualifications and preview a set of her work in R by vieweing a flexboard of plotly graphs she created. For questions or inquiries, please reach out to her via the contact information provided below. 
 
-### I have a webpage!
 
-And I can put all kinds of stuff on it!
+### Contact Information 
+
+For an overview of Helen's experience with R code, please refer to her [Github](https://github.com/hy-3213) account. 
+
+For questions or inquiries, please contact Helen via email at hy2912@cumc.columbia.edu. 

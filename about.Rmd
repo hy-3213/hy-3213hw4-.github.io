@@ -9,7 +9,7 @@ output:
 
 The information below is a summary of Helen's academic and professional experiences. 
 
-*EDUCATION*
+**EDUCATION**
 MS Environmental Health Data Science, 2025 
 Columbia University Mailman School of Public Health 						            
 Thesis: Nutrition and Stress as Effect Modifiers During Pre-Natal Air Pollution Exposure on Childhood Lung Function in GRAPHS cohort 
@@ -21,7 +21,7 @@ Public Health minor (summa cum laude)
 Thesis: Closed Captioning: Culturally Competent and Linguistically Concordant Healthcare (Global Public Health Honors Research Track)
 Thesis advisor: Dr. Marianne Sullivan					   		   
 
-*PUBLICATIONS*
+**PUBLICATIONS**
 Basch, C.H., Yousaf, H., Fera, J.et al.YouTube as a Source of Information on Air Pollution: Significance for Community Health.J Community Health (2024). https://doi.org/10.1007/s10900-024-01360-7
 Yousaf, H., Fera, J., & Basch, C. H. (2024). Coverage of Air Pollution in Online News: Implications for Environmental Health Awareness. Journal of Consumer Health on the Internet, 1–9. https://doi.org/10.1080/15398285.2024.2385221
 Basch CH, Yousaf H, Fera J, Gonzalez R. Traffic as an Urban Health Determinant: Coverage of the New York City Congestion Pricing Plan on TikTok. In press.
@@ -29,14 +29,14 @@ Basch CH, Kollia B, Park E, Yousaf H. Investigation of the online news content p
 Basch CH, Hillyer GC, Yousaf H, Basch CE. The Zyn Wave: Analyzing the Popularity of #zyn content on TikTok. Under Review. 
 Basch CH, Kollia B, Park E, Yousaf H. Noise pollution: impact on communication, mental, and physical health in YouTube videos.Under Review.
 
-*CONFERENCES*
+**CONFERENCES**
 Helen Yousaf, David A Snyder, Biophysical Chemistry of Aging, Undergraduate Research Symposium, William Paterson University, April 2024
 H. Yousaf, Between the Diagnosis: The Importance of Linguistic and Cultural Competency in Healthcare, National Collegiate Honors Council Annual Conference, Chicago, IL, November 2023
 H. Yousaf, Between the Diagnosis: The Importance of Linguistic and Cultural Competency in Healthcare, National Society for Minorities in Honors Conference, University of Arkansas, October 2023 (Accepted; unable to attend)
 H. Yousaf, S. Gritsch, J. Foley, Future Pioneer Project – An Integrated Program to Expand Knowledge of Sustainable Energy Technologies: Year I: Passive Radiative Cooling, Nano-chemistrycategory, Undergraduate Research Symposium, William Paterson University, March 2022
 
 
-*RESEARCH EXPERIENCE*
+**RESEARCH EXPERIENCE**
 Practicum Research Assistant, 2024 - Present
 Collaborative Lab for Energy Access Research and Solutions (CLEARS); Advisor: Dr. Darby Jack 
 Department of Environmental Health Sciences 
@@ -93,8 +93,8 @@ Department of Public Health; Mentor: Dr. Corey Basch
 Surveyed the New York State Hospital system to assess access to preventative and follow-up care for diabetic patients in the NY Metropolitan area based on health insurance type and coverage
 Contacted ophthalmologists, cardiologists, and endocrinologists to collect data on average phone wait times and appointment availability for new patients with various insurance coverages and health conditions
 
-*TEACHING EXPERIENCE*
-Honors Peer Leader, 2022- 2024
+**TEACHING EXPERIENCE**
+Honors Peer Leader, 2022 - 2024
 Honors College, William Paterson University 
 Facilitated HON1020 introductory courses for Honors first-year and transfer students
 Held weekly Office Hours to answer student questions and offer additional guidance
@@ -106,7 +106,7 @@ Tutor, 2018-2021
 Worked one-on-one with students, grades 5-11, to develop and improve study habits and achieve academic success by creating study guides, practice quizzes, and study materials.
 Aided with homework questions and confusion on course material with specific experience in STEM, social science, and foreign language courses for elementary through high school students
 
-*PROFESSIONAL AND LEADERSHIP EXPERIENCE*
+**PROFESSIONAL AND LEADERSHIP EXPERIENCE**
 Graduate Administrative Assistant, 2024-Present
 Digital Learning Studio, Mailman School of Public Health, Columbia University Irving Medical Center 
 Read and completed more than 200 peer-reviewed journal articles, book chapters, and technical papers that led to the successful development of RISE Reading Summary Learning Modules for 9 graduate-level courses that will be implemented in Spring 2025 semester: PUBHP6053: Public Health Interventions, PUBHP6054: Global and Development Perspectives, PUBHP6062: Health Systems, PUBH 6073: Integration of Science and Practice II, P6082: Personal Leadership, P6766: Designing Needs and Assets Assessment, P8095: Communicating Health Risks, P8304: The Impact of Climate Change on Public Health, and P8620: Implementation Science in Practice, P8096: Communicating Health Risks to the Public, P8304: The Impact of Climate Change on Public Health 
@@ -134,11 +134,11 @@ Promoted the Future Pioneer Project, a project funded by a National Science Foun
 Organized yearly Future Pioneer Fest and “unconference”.
 Assessed diversity and effectiveness of project through participant surveys and collaboration with Center for Diversity and Inclusion
 
-*LANGUAGES*
+**LANGUAGES**
 Fluent: Dari, English, Farsi, French, German, Hindi, Urdu and Proficient: Italian, Spanish, and Turkish 
 
-*SKILLS*
+**SKILLS**
 R, SPSS, GIS, Stata
 
-*CERTIFICATIONS*
+**CERTIFICATIONS**
 CITI Health Research Certification, Columbia-Suicide Severest Rating Scale Training, HIPAA for Mental Health, Heart Savers CPR

@@ -1,0 +1,81 @@
+---
+title: "New York NOAA Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+```{r}
+data("ny_noaa") 
+
+ny_noaa = 
+  ny_noaa |>
+ na.omit(ny_noaa)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+ny_noaa_summary <- ny_noaa %>%
+  summarise(min_prcp = min(prcp, na.rm = TRUE), 
+            max_prcp = max(prcp, na.rm = TRUE))
+
+box_plot <- plot_ly(ny_noaa, 
+                    y = ~prcp, 
+                    type = "box", 
+                    name = "Precipitation") %>%
+  layout(title = "Box Plot of Minimum and Maximum Precipitation",
+         yaxis = list(title = "Precipitation (inches)"))
+
+box_plot
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+ny_noaa_filtered <- ny_noaa %>%
+  select(date, prcp, snow) %>%
+  filter(!is.na(prcp) & !is.na(snow))
+
+plot <- plot_ly(ny_noaa_filtered, x = ~date) %>%
+  add_lines(y = ~prcp, name = 'Precipitation', line = list(color = 'blue')) %>%
+  add_lines(y = ~snow, name = 'Snow', line = list(color = 'white')) %>%
+  layout(title = 'Precipitation and Snow Over Time',
+         xaxis = list(title = 'Date'),
+         yaxis = list(title = 'Amount'),
+         legend = list(x = 0, y = 1))
+         
+plot
+```
+
+### Chart C
+
+```{r}
+avg_prcp_by_date <- ny_noaa %>%
+  group_by(date) %>%
+  summarize(avg_prcp = mean(prcp, na.rm = TRUE))
+
+plot_2 <- plot_ly(avg_prcp_by_date, x = ~date, y = ~avg_prcp, type = 'bar') %>%
+  layout(title = "Average Precipitation by Date",
+         xaxis = list(title = "Date"),
+         yaxis = list(title = "Average Precipitation"))
+
+
+plot_2
+```
+
